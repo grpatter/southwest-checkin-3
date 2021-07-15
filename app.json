@@ -33,8 +33,6 @@
       "required": false
     }
   },
-  {
-  "stack": "heroku-18"
-  },
+  "stack": "heroku-18",
   "addons": ["rediscloud:30", "heroku-postgresql", "mailgun:starter", "fixie:tricycle"]
 }
